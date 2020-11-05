@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap');
+
+.inputBox{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.inputBox__field{
+    padding: 10%;
+    text-align: center;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0,0.12),0 2px 3px rgba(0, 0,0, 0.24);
+    padding-top: 0;
+    padding-bottom: 15px;
+    margin: 20px;
+}
+
+.inputBox__field > h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+.inputBox__field > img{
+    width: 15%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+
+}
+
+.inputBox__field > form > button{
+    margin-top: 30px;
+    text-transform: inherit !important;
+    background-color: lightcoral !important;
+    color: #ffff;
+}
